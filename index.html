@@ -7,61 +7,73 @@
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-<div class="container">
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores harum veritatis
-        nemo magni odio reprehenderit atque, esse animi porro suscipit vero nobis modi quis.
-        Exercitationem quasi beatae, assumenda officia illum sunt. Cum voluptas maiores
-        vitae eius hic inventore deleniti placeat perferendis quam ut nostrum maxime optio
-        voluptatibus ab laboriosam, quia consectetur atque minus? Adipisci amet aut sint
-        voluptates delectus aperiam? Veniam ab illum enim in libero nihil culpa explicabo
-        perspiciatis veritatis non repellendus architecto excepturi nostrum porro voluptatem
-        aperiam animi asperiores, a voluptatibus temporibus minima voluptas ipsa! Recusandae
-        nostrum, aut, voluptates est error iusto, eaque excepturi soluta quas maiores amet.
-    </p>
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perferendis error
-        debitis deleniti obcaecati nisi dignissimos doloribus omnis incidunt neque.
-        Aspernatur, odit. Natus, porro adipisci corporis perspiciatis aspernatur illum
-        repellendus vitae explicabo, ex reiciendis molestiae id dicta quos repudiandae at.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores harum veritatis
-        nemo magni odio reprehenderit atque, esse animi porro suscipit vero nobis modi quis.
-        Exercitationem quasi beatae, assumenda officia illum sunt. Cum voluptas maiores
-        vitae eius hic inventore deleniti placeat perferendis quam ut nostrum maxime optio
-        voluptatibus ab laboriosam, quia consectetur atque minus? Adipisci amet aut sint
-        voluptates delectus aperiam? Veniam ab illum enim in libero nihil culpa explicabo
-        perspiciatis veritatis non repellendus architecto excepturi nostrum porro voluptatem
-        aperiam animi asperiores, a voluptatibus temporibus minima voluptas ipsa! Recusandae
-        nostrum, aut, voluptates est error iusto, eaque excepturi soluta quas maiores amet.
-    </p>
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perferendis error
-        debitis deleniti obcaecati nisi dignissimos doloribus omnis incidunt neque.
-        Aspernatur, odit. Natus, porro adipisci corporis perspiciatis aspernatur illum
-        repellendus vitae explicabo, ex reiciendis molestiae id dicta quos repudiandae at.
-    </p>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores harum veritatis
-        nemo magni odio reprehenderit atque, esse animi porro suscipit vero nobis modi quis.
-        Exercitationem quasi beatae, assumenda officia illum sunt. Cum voluptas maiores
-        vitae eius hic inventore deleniti placeat perferendis quam ut nostrum maxime optio
-        voluptatibus ab laboriosam, quia consectetur atque minus? Adipisci amet aut sint
-        voluptates delectus aperiam? Veniam ab illum enim in libero nihil culpa explicabo
-        perspiciatis veritatis non repellendus architecto excepturi nostrum porro voluptatem
-        aperiam animi asperiores, a voluptatibus temporibus minima voluptas ipsa! Recusandae
-        nostrum, aut, voluptates est error iusto, eaque excepturi soluta quas maiores amet.
-    </p>
-    <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum perferendis error
-        debitis deleniti obcaecati nisi dignissimos doloribus omnis incidunt neque.
-        Aspernatur, odit. Natus, porro adipisci corporis perspiciatis aspernatur illum
-        repellendus vitae explicabo, ex reiciendis molestiae id dicta quos repudiandae at.
-    </p>
-</div>
 <header>
     <h1>PROJECT VENCIO</h1>
+    <nav
+            class="top-bar-nav">
+        <a href="#the-vision">THE VISION</a>
+        <a href="#about-us">ABOUT US</a>
+        <a href="#our-progress">OUR PROGRESS</a>
+        <a href="#contact-us">CONTACT US</a>
+    </nav>
 </header>
+
+
+<div class="container">
+
+    <a id="the-vision"></a>
+    <section class="article">
+        <h2>THE VISION</h2>
+        <p>Our vision is to create a sustainable service platform to make online trading faster, better and more efficient. Profitable for both private and commercial users with rewards waiting - for protecting the environment and making money in the process. <br>In this way, we want to make a difference in the world, bring communities together, and relieve and strengthen the environment in various ways. </br> </p>
+    </section>
+
+    <a id="about-us"></a>
+    <section class="article">
+        <h2>ABOUT US</h2>
+        <p>The project was funded by Henri Grüger and Julian Gräfen in 2019.
+            Julian Gräfen is 22 years old and studies <a href="https://coco.study/" class="link-studies">Code and Context</a> in the fourth semester at the TH-Köln.<br>
+            Sustainability is particularly important to him, as is efficiency.<br>
+            Henri Grüger is 21 years old and is currently doing an apprenticeship at the <a href="https://profipress.de/" class="link-studies">ProfiPress </a> agency.<br>
+            We both love sustainable and efficient projects. Our goal is to make a positive difference in the world.</p>
+    </section>
+    <section class ="contact-us">
+    <a id="contact-us"></a>
+
+    <form action="https://formspree.io/f/xnqwyvkg"
+          method="POST" class="contact-us">
+        <h2>CONTACT US</h2>
+        <div class ="form-row">
+            <label for="name"></label>
+            <input id="name"
+                   name="name"
+                   type="text"
+                   placeholder="*Full Name"/>
+        </div>
+        <div class="form-row">
+            <label for="email"></label>
+            <input id="email"
+                   name="email"
+                   type="email"
+                   placeholder="*Your E-mail"/>
+
+        </div>
+        <div class="form-row">
+            <label for="message">Your message:</label>
+            <textarea id="message" name="message" rows="8" ></textarea>
+        </div>
+        <div class="center">
+        <button class="button" type="submit" value="=submit">Send</button>
+        </div>
+    </form>
+    </section>
+    <footer class="footer">Made with ❤ by Julian Gräfen</footer>
+
+</div>
+<div class="go-back-to-top">
+    <a href="#the-top">BACK TO TOP &uarr;</a>
+</div>
+
+
+
 </body>
 </html>
