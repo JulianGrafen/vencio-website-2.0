@@ -282,8 +282,13 @@ a.link-studies:visited{
         height: 30px;
     }
 /*Contact us*/
+
+.heading-contact-h2{
+    text-align: center;
+
+}
     .contact-us{
-        text-align: center;
+
         border-radius: 3px;
         margin-left: auto;
         margin-right: auto;
@@ -297,7 +302,7 @@ a.link-studies:visited{
 
     }
     .form-row{
-        margin-left: 65px;
+        margin-left: 250px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
