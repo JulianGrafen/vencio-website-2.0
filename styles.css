@@ -283,17 +283,21 @@ a.link-studies:visited{
     }
 /*Contact us*/
     .contact-us{
+        text-align: center;
         border-radius: 3px;
+        margin-left: auto;
+        margin-right: auto;
         justify-content: center;
         font-family: Arial;
         color: white;
         font-weight: bold;
-        margin:0 auto;
         width: 100%;
         padding: 50px;
 
+
     }
     .form-row{
+        margin-left: 65px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -307,11 +311,16 @@ a.link-studies:visited{
         display:flex;
     }
 
+
+
+
+
     .center{
         margin: 0;
         position: absolute;
         left: 50%;
         transform: translate( -50%);
+
     }
     .button{
         display: block;
