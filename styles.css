@@ -84,6 +84,14 @@ header::before {
     margin-top: 5vh;
 }
 
+a.link-studies {
+    color: cornflowerblue;
+}
+
+a.link-studies:visited {
+    color: cornflowerblue;
+}
+
 h2{
     margin-top: 50px;
 
@@ -157,7 +165,13 @@ nav a:hover:after{
 }
 /*//////////////////////////////////////*/
 
+
+
 @media only screen and (min-width: 800px) {
+
+
+
+
 
 
     html {
