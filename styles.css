@@ -86,6 +86,7 @@ header::before {
 
 h2{
     margin-top: 50px;
+
 }
 p{
     margin-top: 25px;
@@ -102,7 +103,7 @@ p{
 
 /*|||||||||| Top Bar Navigation Links ||||||||||*/
 nav a {
-    font-size: 15px;
+
     padding:10px;
     align-items: center;
     justify-content: center;
@@ -181,13 +182,13 @@ nav a:hover:after{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-family: "Bahnschrift", "Arial","sans-serif";
+        font-family: "Bahnschrift", "Arial", "sans-serif";
         font-size: 150px;
     }
 
     header,
     header:before {
-        background: 50% 50% ;
+        background: 50% 50%;
     }
 
     header::before {
@@ -207,10 +208,6 @@ nav a:hover:after{
     }
 
 
-
-
-
- }
     .container {
         z-index: 1;
         position: absolute;
@@ -224,15 +221,15 @@ nav a:hover:after{
         /*opacity: 0.5;*/
     }
 
-a.link-studies{
-    color: cornflowerblue;
-}
+    a.link-studies {
+        color: cornflowerblue;
+    }
 
-a.link-studies:visited{
-    color: cornflowerblue;
-}
+    a.link-studies:visited {
+        color: cornflowerblue;
+    }
 
-    .top-bar-nav{
+    .top-bar-nav {
         z-index: 3;
         display: flex;
         justify-content: space-evenly;
@@ -245,7 +242,7 @@ a.link-studies:visited{
     /*|||||||||| Top Bar Navigation Links ||||||||||*/
     nav a {
         font-size: 25px;
-        padding:10px;
+        padding: 10px;
         align-items: center;
         justify-content: center;
         display: inline-block;
@@ -257,7 +254,7 @@ a.link-studies:visited{
 
     }
 
-    nav a:after{
+    nav a:after {
         content: '';
         position: absolute;
         width: 100%;
@@ -269,25 +266,29 @@ a.link-studies:visited{
         transition: transform 0.25s ease-out;
     }
 
-    nav a:hover:after{
+    nav a:hover:after {
         transform: scaleX(1);
         transform-origin: bottom left;
     }
-    input::placeholder{
+
+    input::placeholder {
         opacity: 1;
         color: black;
     }
 
-    input{
+    input {
         height: 30px;
     }
-/*Contact us*/
 
-.heading-contact-h2{
-    text-align: center;
 
-}
-    .contact-us{
+    /*Timeline*/
+    /*Contact us*/
+    .heading-contact-h2 {
+        text-align: center;
+
+    }
+
+    .contact-us {
 
         border-radius: 3px;
         margin-left: auto;
@@ -301,7 +302,8 @@ a.link-studies:visited{
 
 
     }
-    .form-row{
+
+    .form-row {
         margin-left: 250px;
         display: flex;
         flex-direction: column;
@@ -311,23 +313,21 @@ a.link-studies:visited{
         padding-top: 10px;
     }
 
-    .form-row textarea{
-        resize:none;
-        display:flex;
+    .form-row textarea {
+        resize: none;
+        display: flex;
     }
 
 
-
-
-
-    .center{
+    .center {
         margin: 0;
         position: absolute;
         left: 50%;
-        transform: translate( -50%);
+        transform: translate(-50%);
 
     }
-    .button{
+
+    .button {
         display: block;
         justify-content: center;
         font-weight: bold;
@@ -336,7 +336,8 @@ a.link-studies:visited{
         width: 300px;
         margin: 10px auto;
     }
-    .footer{
+
+    .footer {
 
         display: flex;
         justify-content: center;
@@ -347,4 +348,4 @@ a.link-studies:visited{
         height: 50px;
         padding-top: 50px;
     }
-
+}
