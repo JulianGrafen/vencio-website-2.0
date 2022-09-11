@@ -80,7 +80,7 @@ header::before {
     line-height: 30px;
     font-weight: lighter;
     padding: 40px;
-    color: grey;
+    color: white;
     margin-top: 5vh;
 }
 
@@ -137,6 +137,24 @@ nav a:hover:after{
     transform-origin: bottom left;
 }
 
+.form-row{
+     margin-right:50px;
+}
+
+.button{
+    height: 50px;
+    width: 155px;
+
+
+}
+
+.footer{
+    padding-top: 50px;
+    font-size: 10px;
+    transform: translate(30%);
+    padding-bottom: 0px;
+
+}
 /*//////////////////////////////////////*/
 
 @media only screen and (min-width: 800px) {
